@@ -1,0 +1,81 @@
+[
+  {
+    "id": "prospect-park",
+    "name": "Prospect Park",
+    "description": "A 526-acre park in the heart of Brooklyn...",
+    "location": {
+      "lat": 40.6602,
+      "lng": -73.969,
+      "address": "Brooklyn, NY 11225"
+    },
+    "amenities": ["playground", "dog-run", "trails", "restrooms", "parking"],
+    "hours": "6:00 AM - 1:00 AM",
+    "images": ["https://example.com/prospect-1.jpg"],
+    "acreage": 526,
+    "rating": 4.7
+  },
+  {
+    "id": "central-park",
+    "name": "Central Park",
+    "description": "An 843-acre urban park in Manhattan.",
+    "location": {
+      "lat": 40.7829,
+      "lng": -73.9654,
+      "address": "New York, NY"
+    },
+    "amenities": ["playground", "trails", "restrooms"],
+    "hours": "6:00 AM - 1:00 AM",
+    "images": [],
+    "acreage": 843,
+    "rating": null
+  },
+  {
+    "id": "zilker-park",
+    "name": "Zilker Metropolitan Park",
+    "description": null,
+    "location": {
+      "lat": 30.2669,
+      "lng": -97.7729,
+      "address": "2100 Barton Springs Rd, Austin, TX 78704"
+    },
+    "amenities": ["trails", "parking"],
+    "hours": null,
+    "images": [],
+    "acreage": 351
+  },
+  {
+    "id": "millennium-park",
+    "name": "Millennium Park",
+    "description": "A public park in the Loop community area of Chicago.",
+    "location": {
+      "lat": 41.8826,
+      "lng": -87.6226,
+      "address": "201 E Randolph St, Chicago, IL 60602"
+    },
+    "amenities": [],
+    "images": []
+  },
+  {
+    "id": "golden-gate-park",
+    "name": "Golden Gate Park",
+    "description": "A large urban park in San Francisco, over 1,000 acres.",
+    "location": {
+      "lat": 37.7694,
+      "lng": -122.4862,
+      "address": "San Francisco, CA"
+    },
+    "amenities": ["playground", "trails", "restrooms"],
+    "images": [],
+    "acreage": 1017
+  },
+  {
+    "id": "discovery-park",
+    "name": "Discovery Park",
+    "location": {
+      "lat": 47.6573,
+      "lng": -122.4057,
+      "address": "3801 Discovery Park Blvd, Seattle, WA 98199"
+    },
+    "amenities": ["trails"]
+  }
+]

@@ -1,0 +1,11 @@
+[project]
+name = "parkfinder-backend"
+version = "0.1.0"
+description = "API-driven park finder backend (FastAPI + Pydantic + HTTPX)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning"]

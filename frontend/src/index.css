@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* One consistent, highly visible focus indicator for every interactive element. */
+@utility focus-ring {
+  &:focus-visible {
+    outline: 3px solid #0f172a;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 6px #fde047;
+  }
+}
+
+/* Leaflet controls and markers get the same focus indicator. */
+.leaflet-container:focus-visible,
+.leaflet-control a:focus-visible,
+.leaflet-marker-icon:focus-visible {
+  outline: 3px solid #0f172a !important;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px #fde047;
+}
+
+.park-pin {
+  background: transparent;
+  border: none;
+}
+
+.park-pin__dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  background: #047857;
+  border: 3px solid #ffffff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.5);
+}
+
+/* Selected: larger, star glyph and a thick dark ring, so it does not rely on colour. */
+.park-pin__dot--selected {
+  background: #fde047;
+  border: 4px solid #0f172a;
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .leaflet-fade-anim .leaflet-popup,
+  .leaflet-zoom-anim .leaflet-zoom-animated {
+    transition: none !important;
+  }
+}
